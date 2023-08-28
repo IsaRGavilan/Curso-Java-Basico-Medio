@@ -15,11 +15,14 @@ public class ArraysDeUnaDimension {
         int minimo, maximo;
         minimo = maximo = numeros[0];
 
-        for(int i = 0; i <numeros.length - 1; i++){
+        for(int i = 0; i <= numeros.length-1; i++){
             if(numeros[i] > maximo) maximo = numeros[i];
             if (numeros[i] < minimo) minimo = numeros[i];
         }
 
         System.out.println("El valor mínimo del array es "+minimo+" y el máximo es "+maximo);
+
+        double [] miArrayDeDoubles = {2.3, 6.0, 25, 8.36};
+
     }
 }
